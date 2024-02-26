@@ -50,6 +50,10 @@ function factorial(num1) {
 return num1
 }
 
+function exponente (num1, exponenteNum) {
+  return num1**exponenteNum
+}
+
 // Función principal del programa
 function calculadora() {
   let opcion = prompt(
