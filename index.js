@@ -39,8 +39,15 @@ function multiplicar(num1, num2) {
   return num1 * num2;
 }
 
-function dividir (num1, num2) {
+function dividir(num1, num2) {
   return num1 / num2;
+}
+
+function factorial(num1) {
+  for( let i = num1 - 1 ; i > 0 ; i--){
+    num1 *= i
+}
+return num1
 }
 
 // Función principal del programa
