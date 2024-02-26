@@ -54,6 +54,10 @@ function exponente (num1, exponenteNum) {
   return num1**exponenteNum
 }
 
+function raizCuadrada (num1) {
+  return num1**0.5
+}
+
 // Función principal del programa
 function calculadora() {
   let opcion = prompt(
