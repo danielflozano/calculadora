@@ -2,6 +2,8 @@
 
 console.log('Calculadora');
 
+/*
+
 // Función principal del programa
 function calculadora() {
     let opcion = prompt('Elija una opción:\n1. Suma\n2. Resta\n3. Multiplicación\n4. División\n5. Factorial\n6. Exponente\n7. Raíz cuadrada'),
@@ -25,6 +27,8 @@ function calculadora() {
   
   // Llamar a la función principal
   calculadora();
+
+  */
 
   // Función para sumar dos números
 function sumar(num1, num2) {
@@ -64,9 +68,10 @@ function calculadora() {
     "Elija una opción:\n1. Suma\n2. Resta\n3. Multiplicación\n4. División\n5. Factorial\n6. Exponente\n7. Raíz cuadrada"
   );
   let num1 = parseFloat(prompt("Ingrese el primer número:"));
-  let num2, resultado;
+  let num2,
+      resultado;
 
-  if (opcion !== "5" && opcion !== "7") {
+  if (opcion !== "5" && opcion !== "6" && opcion !== "7") {
     num2 = parseFloat(prompt("Ingrese el segundo número:"));
   }
 
