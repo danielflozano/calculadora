@@ -1,52 +1,26 @@
-
-
 console.log('Calculadora');
 
-/*
-
-// Función principal del programa
-function calculadora() {
-    let opcion = prompt('Elija una opción:\n1. Suma\n2. Resta\n3. Multiplicación\n4. División\n5. Factorial\n6. Exponente\n7. Raíz cuadrada'),
-        num1 = parseFloat(prompt('Ingrese el primer número:')),
-        num2,
-        resultado;
-  
-    if (opcion !== '5' && opcion !== '7') {
-      num2 = parseFloat(prompt('Ingrese el segundo número:'));
-    }
-  
-    alert(
-      'la operacion es ' +
-        opcion +
-        ' el primer valor es ' +
-        num1 +
-        ' el segundo valor es ' +
-        num2
-    );
-  }
-  
-  // Llamar a la función principal
-  calculadora();
-
-  */
-
-  // Función para sumar dos números
+// Función para sumar dos números
 function sumar(num1, num2) {
   return num1 + num2;
 }
 
+// funcion para restar dos numeros
 function restar(num1, num2) {
   return num1 - num2;
 }
 
+// funcion para multiplicar dos numeros
 function multiplicar(num1, num2) {
   return num1 * num2;
 }
 
+// funcion para dividir99 dos numeros
 function dividir(num1, num2) {
   return num1 / num2;
 }
 
+// funcion para hayar la factorial de un numero
 function factorial(num1) {
   for( let i = num1 - 1 ; i > 0 ; i--){
     num1 *= i
@@ -54,10 +28,12 @@ function factorial(num1) {
 return num1
 }
 
+// funcion para sacar el exponente de un numero
 function exponente (num1, exponenteNum) {
   return num1**exponenteNum
 }
 
+// funcion raiz cuadrada
 function raizCuadrada (num1) {
   return num1**0.5
 }
